@@ -1,6 +1,6 @@
-total_bill = float(input("Total bill amount? "))
-service = input("Level of Service? ")
 try:
+    total_bill = float(input("Total bill amount? "))
+    service = input("Level of Service? ")
     if service == 'good':
         tip_amount = (total_bill*0.20)
         total_amount = total_bill + tip_amount
