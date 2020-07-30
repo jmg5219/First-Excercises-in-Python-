@@ -1,6 +1,6 @@
 import random
 magic_number = random.randint(1,10)
-user_input = magic_number 
+user_input = 0
 guess = 0 
 total_guess = 5
 remain_guess = total_guess - guess
