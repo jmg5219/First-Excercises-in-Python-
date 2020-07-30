@@ -1,6 +1,6 @@
 import random
 magic_number = random.randint(1,10)
-user_input = 0 
+user_input = magic_number 
 guess = 0 
 total_guess = 5
 remain_guess = total_guess - guess
@@ -11,7 +11,6 @@ while play_again == 'Y':
     if play_again == 'Y':
         remain_guess = total_guess - guess
         if remain_guess > 0 :
-    
             print("I am thinking of a number between 1 and 10.")
             #print(magic_number)
             guess += 1
