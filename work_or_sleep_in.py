@@ -1,5 +1,5 @@
-day = int(input('Day (0-6)? '))
-if (day==0):
+day = int(input('Day (0-6)? '))#prompting for user input
+if (day==0):#conditional statemnts
     print('Sleep in')
 elif (day==1):
     print('Go to work')

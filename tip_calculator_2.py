@@ -1,7 +1,7 @@
-total_bill = float(input("Total bill amount? "))
-service = input("Level of Service? ")
-split = int(input("Split how many ways?  "))
-try:
+total_bill = float(input("Total bill amount? "))#prompt user for bill amount
+service = input("Level of Service? ")#prompt user for service level
+split = int(input("Split how many ways?  "))#prompt user for split
+try:#error handling for different levels of service
     if service == 'good':
         tip_amount = (total_bill*0.20)
         total_amount = total_bill + tip_amount

@@ -41,17 +41,17 @@ another_list.append("Tommy")
 
 # Looping through another list with the while loop
 i = 0 
-while i < len(another_list):
+while i < len(another_list):#iterating through a list with a while loop
     print(another_list[i])
-    i += 1
+    i += 1#incrementing the while loop
 print()
 
 # removing from the list 
 another_list.remove("Tommy")
 
 # Looping through another list with the while loop
-i = 0 
+i = 0 # re-initalizing the the iterator
 while i < len(another_list):
     print(another_list[i])
-    i += 1
+    i += 1#incrementing in the while loop
 print()
